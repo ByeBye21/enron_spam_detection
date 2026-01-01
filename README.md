@@ -15,7 +15,7 @@ Yapılan testler sonucunda **Logistic Regression** modeli en yüksek performans�
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| **Logistic Regression** | **%98.6** | **%97.7** | **%99.3** | **98.5** | **%99.9** |
+| **Logistic Regression** | **%98.6** | **%97.7** | **%99.3** | **%98.5** | **%99.9** |
 | Naive Bayes | %97.9 | %97.5 | %98.1 | %97.8 | %99.8 |
 
 ## **🛠️ Kurulum ve Kullanım**
@@ -26,9 +26,9 @@ Projeyi kendi bilgisayarınızda çalıştırmak için:
 ```bash
    git clone https://github.com/ByeBye21/enron_spam_detection.git
 ```
-3. **Gerekli kütüphaneleri yükleyin:**
+2. **Gerekli kütüphaneleri yükleyin:**
 ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn
 ```
-5. **Projeyi çalıştırın:**
+3. **Projeyi çalıştırın:**
    Spam_Tespiti.ipynb dosyasını Jupyter Notebook ile açarak hücreleri sırasıyla çalıştırın.
