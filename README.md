@@ -13,20 +13,22 @@ Bu proje, **Veri Madenciliği** dersi kapsamında **Enron E-Posta Veri Seti** ku
 
 Yapılan testler sonucunda **Logistic Regression** modeli en yüksek performansı göstermiştir.
 
-| Model | Accuracy | Precision | Recall | F1-Score |
-| :---- | :---- | :---- | :---- | :---- |
-| **Logistic Regression** | **%98.6** | 0.97 | **0.99** | 0.98 |
-| Naive Bayes | %97.9 | 0.97 | 0.98 | 0.97 |
+| Model | Accuracy | Precision | Recall | F1-Score | AUC |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **Logistic Regression** | **%98.6** | **%97.7** | **%99.3** | **98.5** | **%99.9** |
+| Naive Bayes | %97.9 | %97.5 | %98.1 | %97.8 | %99.8 |
 
 ## **🛠️ Kurulum ve Kullanım**
 
 Projeyi kendi bilgisayarınızda çalıştırmak için:
 
-1. **Repoyu klonlayın:**  
-   git clone [https://github.com/ByeBye21/enron_spam_detection.git\](https://github.com/ByeBye21/enron_spam_detection.git)
-
-2. **Gerekli kütüphaneleri yükleyin:**  
+1. **Repoyu klonlayın:**
+```bash
+   git clone https://github.com/ByeBye21/enron_spam_detection.git
+```
+3. **Gerekli kütüphaneleri yükleyin:**
+```bash
    pip install pandas numpy scikit-learn matplotlib seaborn
-
-3. **Projeyi çalıştırın:**
+```
+5. **Projeyi çalıştırın:**
    Spam_Tespiti.ipynb dosyasını Jupyter Notebook ile açarak hücreleri sırasıyla çalıştırın.
