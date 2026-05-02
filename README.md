@@ -1,34 +1,3 @@
 # enron_spam_detection
 
-Bu proje, **Veri Madenciliği** dersi kapsamında **Enron E-Posta Veri Seti** kullanılarak geliştirilmiş bir makine öğrenmesi uygulamasıdır. Doğal Dil İşleme (NLP) teknikleri kullanılarak, e-postaların içeriğine göre "Spam" (Zararlı/İstenmeyen) veya "Ham" (Normal) olarak sınıflandırılması hedeflenmiştir.
-
-## **🚀 Proje Özeti**
-
-* **Amaç:** E-posta içeriklerini analiz ederek yüksek doğrulukla spam tespiti yapmak.  
-* **Veri Seti:** Enron Corpus (33.000+ e-posta verisi).  
-* **Yöntem:** Metin Ön İşleme, TF-IDF Vektörleştirme (N-Gram).  
-* **Modeller:** Logistic Regression ve Multinomial Naive Bayes.
-
-## **📊 Sonuçlar**
-
-Yapılan testler sonucunda **Logistic Regression** modeli en yüksek performansı göstermiştir.
-
-| Model | Accuracy | Precision | Recall | F1-Score | AUC |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| **Logistic Regression** | **%98.6** | **%97.7** | **%99.3** | **%98.5** | **%99.9** |
-| Naive Bayes | %97.9 | %97.5 | %98.1 | %97.8 | %99.8 |
-
-## **🛠️ Kurulum ve Kullanım**
-
-Projeyi kendi bilgisayarınızda çalıştırmak için:
-
-1. **Repoyu klonlayın:**
-```bash
-   git clone https://github.com/ByeBye21/enron_spam_detection.git
-```
-2. **Gerekli kütüphaneleri yükleyin:**
-```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn
-```
-3. **Projeyi çalıştırın:**
-   Spam_Tespiti.ipynb dosyasını Jupyter Notebook ile açarak hücreleri sırasıyla çalıştırın.
+Bu proje, 33.000'den fazla e-posta barındıran Enron veri seti üzerinde veri madenciliği ve doğal dil işleme (NLP) teknikleri kullanılarak geliştirilmiş otomatik bir spam tespit sistemidir. Gelen mesajların metin içeriklerini analiz ederek "Spam" (istenmeyen) veya "Ham" (normal) olarak sınıflandırmayı amaçlayan çalışmada, veri ön işleme ve TF-IDF (N-Gram) vektörleştirme adımlarının ardından Logistic Regression ve Multinomial Naive Bayes modelleri eğitilmiştir. Yapılan testler sonucunda Logistic Regression modeli %98.6 doğruluk (accuracy) ve %98.5 F1-skoru ile en yüksek performansı göstermiş olup, e-posta filtreleme senaryoları için güvenilir ve yüksek performanslı bir makine öğrenmesi çözümü ortaya konmuştur.
